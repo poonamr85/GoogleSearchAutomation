@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24167" started-at="2015-04-22T08:45:29Z" finished-at="2015-04-22T08:45:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24167" started-at="2015-04-22T08:45:29Z" finished-at="2015-04-22T08:45:53Z">
+      <class name="com.test.google.application.search.GoogleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.google.application.search.GoogleTest@a6d14e]" name="setUp" is-config="true" duration-ms="17790" started-at="2015-04-22T01:45:29Z" finished-at="2015-04-22T01:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openGoogleTest()[pri:0, instance:com.test.google.application.search.GoogleTest@a6d14e]" name="openGoogleTest" duration-ms="3186" started-at="2015-04-22T01:45:47Z" finished-at="2015-04-22T01:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogleTest -->
+        <test-method status="PASS" signature="verifyResultPageTest()[pri:0, instance:com.test.google.application.search.GoogleTest@a6d14e]" name="verifyResultPageTest" duration-ms="1197" started-at="2015-04-22T01:45:50Z" finished-at="2015-04-22T01:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultPageTest -->
+        <test-method status="PASS" signature="verifyImagePresenceTest()[pri:0, instance:com.test.google.application.search.GoogleTest@a6d14e]" name="verifyImagePresenceTest" duration-ms="139" started-at="2015-04-22T01:45:51Z" finished-at="2015-04-22T01:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImagePresenceTest -->
+        <test-method status="PASS" signature="verifyURLString()[pri:0, instance:com.test.google.application.search.GoogleTest@a6d14e]" name="verifyURLString" duration-ms="128" started-at="2015-04-22T01:45:51Z" finished-at="2015-04-22T01:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURLString -->
+        <test-method status="PASS" signature="verifySearchBoxText()[pri:0, instance:com.test.google.application.search.GoogleTest@a6d14e]" name="verifySearchBoxText" duration-ms="131" started-at="2015-04-22T01:45:51Z" finished-at="2015-04-22T01:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.google.application.search.GoogleTest@a6d14e]" name="tearDown" is-config="true" duration-ms="1565" started-at="2015-04-22T01:45:52Z" finished-at="2015-04-22T01:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.google.application.search.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
