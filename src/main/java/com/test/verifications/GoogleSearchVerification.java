@@ -17,7 +17,6 @@ public final class GoogleSearchVerification {
 	}
 	
 	public static void sourceImageVerification(){
-		System.out.println("VALUE" + Google.getURLString());
 	Assert.assertTrue(Google.getURLString().startsWith(MATCH_URL_STRING),"String URL is not as expected");
 	}
 	
